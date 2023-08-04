@@ -89,7 +89,6 @@ export default function Home() {
         <MyName finishedLoading={context.sharedState.finishedLoading} />
         <SocialMediaArround finishedLoading={context.sharedState.finishedLoading} />
         {context.sharedState.finishedLoading ? <AboutMe ref={aboutRef} /> : <></>}
-        {context.sharedState.finishedLoading ? <WhereIHaveWorked /> : <></>}
         {context.sharedState.finishedLoading ? <GetInTouch /> : <></>}
         {context.sharedState.finishedLoading ? (
           <Footer githubUrl={"https://github.com/MBG1337"} hideSocialsInDesktop={true} />
