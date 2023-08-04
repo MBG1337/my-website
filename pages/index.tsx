@@ -90,7 +90,6 @@ export default function Home() {
         <SocialMediaArround finishedLoading={context.sharedState.finishedLoading} />
         {context.sharedState.finishedLoading ? <AboutMe ref={aboutRef} /> : <></>}
         {context.sharedState.finishedLoading ? <WhereIHaveWorked /> : <></>}
-        {context.sharedState.finishedLoading ? <SomethingIveBuilt /> : <></>}
         {context.sharedState.finishedLoading ? <GetInTouch /> : <></>}
         {context.sharedState.finishedLoading ? (
           <Footer githubUrl={"https://github.com/MBG1337"} hideSocialsInDesktop={true} />
