@@ -90,7 +90,7 @@ export default function DesktopMenu(props: { finishedLoading: boolean }) {
          &gt; 04. <span className="text-white  hover:cursor-pointer hover:text-AAsecondary duration-300">Contact</span>
         </ReactScrollLink>
       </motion.span>
-      <a href={"/resume.pdf"} target={"_blank"} rel="noreferrer">
+      <a href={"https://github.com/MBG1337"} target={"_blank"} rel="noreferrer">
       <motion.button
         initial={{
           y: -40,
@@ -108,7 +108,7 @@ export default function DesktopMenu(props: { finishedLoading: boolean }) {
         // onClick={()=>{router.push("/resume.pdf")}}
         className="text-AAsecondary border border-spacing-2 py-2 px-3 rounded-sm border-AAsecondary hover:bg-ResumeButtonHover"
       >
-        Resume
+        Github
       </motion.button>
       </a>
       
