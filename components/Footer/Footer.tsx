@@ -1,6 +1,5 @@
 import React from "react";
 import GithubIcon from "../Icons/GithubIcon";
-import LinkedinIcon from "../Icons/LinkedinIcon";
 import InstagramIcon from "../Icons/InstagramIcon";
 import YoutubeIcon from "../Icons/YoutubeIcon";
 const ClickableIcon = props => {
