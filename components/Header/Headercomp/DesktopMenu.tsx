@@ -61,7 +61,7 @@ export default function DesktopMenu(props: { finishedLoading: boolean }) {
         className="text-AAsecondary"
       >
          <ReactScrollLink to="GetInTouchSection" spy={true} smooth={true} offset={-100} duration={200}>
-         &gt; 04. <span className="text-white  hover:cursor-pointer hover:text-AAsecondary duration-300">Contact</span>
+         &gt; 02. <span className="text-white  hover:cursor-pointer hover:text-AAsecondary duration-300">Contact</span>
         </ReactScrollLink>
       </motion.span>
       <a href={"discord.gg/minecube"} target={"_blank"} rel="noreferrer">
