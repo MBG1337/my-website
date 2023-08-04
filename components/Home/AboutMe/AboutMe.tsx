@@ -42,7 +42,7 @@ export default function AboutMe(props) {
                 <span className="text-AAsecondary">php.</span>, I am dedicated to pushing boundaries and driving
                 advancements. With experience working alongside esteemed organizations like{" "}
                 <span className="text-AAsecondary">Pterodactyl</span>, where I played a key role in patching login bugs in{" "}
-                <span className="text-AAsecondary">pterodacty</span> , my passion for php and continuous
+                <span className="text-AAsecondary">pterodactyl</span> , my passion for php and continuous
                 learning drives me to make a positive impact and advance technology.
               </span>
             </div>
