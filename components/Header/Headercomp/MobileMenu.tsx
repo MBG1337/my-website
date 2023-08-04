@@ -39,40 +39,6 @@ const MobileMenu = props => {
             </span>
           </Link>
           <Link
-            to="WhereIhaveWorkedSection"
-            spy={true}
-            smooth={true}
-            offset={-250}
-            duration={200}
-            onClick={() => closeMenu()}
-            className="flex flex-col text-center space-y-2"
-          >
-            <span className="text-AAsecondary text-xs font-mono hover:cursor-pointer">02.</span>
-            <span
-              className="text-white font-Text2 text-sm sm:text-base
-             hover:text-AAsecondary hover:cursor-pointer duration-300"
-            >
-              Experience
-            </span>
-          </Link>
-          <Link
-            to="SomethingIveBuiltSection"
-            spy={true}
-            smooth={true}
-            offset={100}
-            duration={200}
-            onClick={() => closeMenu()}
-            className="flex flex-col text-center space-y-2"
-          >
-            <span className="text-AAsecondary text-xs font-mono">03.</span>
-            <span
-              className="text-white font-Text2 text-sm sm:text-base
-             hover:text-AAsecondary hover:cursor-pointer duration-300"
-            >
-              Work
-            </span>
-          </Link>
-          <Link
             to="GetInTouchSection"
             spy={true}
             smooth={true}
@@ -81,7 +47,7 @@ const MobileMenu = props => {
             onClick={() => closeMenu()}
             className="flex flex-col text-center space-y-2"
           >
-            <span className="text-AAsecondary text-xs font-mono">04.</span>
+            <span className="text-AAsecondary text-xs font-mono">02.</span>
             <span
               className="text-white font-Text2 text-sm sm:text-base
              hover:text-AAsecondary hover:cursor-pointer duration-300"
@@ -89,12 +55,12 @@ const MobileMenu = props => {
               Contact
             </span>
           </Link>
-          <a href={"/resume.pdf"} target={"_blank"} rel="noreferrer">
+          <a href={"https://github.com/MBG1337"} target={"_blank"} rel="noreferrer">
             <button
               className="rounded border font-Text2  border-AAsecondary
            hover:bg-ResumeButtonHover py-2 sm:py-4 px-5 sm:px-10 text-xs text-AAsecondary"
             >
-              Resume
+              github
             </button>
           </a>
         </div>
