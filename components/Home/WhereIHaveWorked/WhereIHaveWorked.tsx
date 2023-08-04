@@ -14,20 +14,20 @@ export default function WhereIHaveWorked() {
   // ? INFORMATIONAL the default value of barRef's class should be at the beginning translate-y-[0px]
   const GetDescription = () => {
     switch (DescriptionJob) {
-      case "ENSVision":
-        return <EnsVision />;
-      case "TrouveTavoie":
-        return <TrouveTavoie />;
-      case "FeverTokens":
-        return <FeverTokens />;
-      case "IdealFresh":
-        return <IdealFresh />;
-      case "Advanced Agro Management":
-        return <AdvancedAgroManagement />;
-      case "Fantasia":
-        return <Fantasia />;
-      case "SuperBerry":
-        return <SuperBerry />;
+      case "ProtonNodes":
+        return <ProtonNodes />;
+      case "TheHidden":
+        return <TheHidden />;
+      case "MineCubeMC":
+        return <MineCubeMC />;
+      case "Cubine":
+        return <Cubine />;
+      case "MineCube Theme":
+        return <McubeTheme />;
+      case "QuadriaAI":
+        return <Quadria />;
+      case "Minactyl":
+        return <Minactyl />;
     }
   };
   const [DescriptionJob, setDescriptionJob] = React.useState("ENSVision");
