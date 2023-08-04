@@ -53,10 +53,10 @@ export default function MyName(props: { finishedLoading: boolean }) {
         className="text-gray-400 font-Header text-sm md:text-lg sm:text-md mt-10 tracking-wider"
       >
         I&apos;m a <span className="text-AAsecondary">developer</span>, i developer in different languages <br className="2xl:block hidden" />
-        such as tailscript, javascript, php and html.<span className="text-AAsecondary">Tailscript</span>,
+        such as tailscript, javascript, php and html.<span className="text-AAsecondary"> Tailwind</span>,
         is where I actively engage in developing <br className="2xl:block hidden"/>
         and designing immersive <span className="text-AAsecondary">applications</span>. This involves working with{" "}
-        <span className="text-AAsecondary">PHP</span>  on the{" "}
+        <span className="text-AAsecondary">PHP</span>  and{" "}
         <span className="text-AAsecondary">React.js</span>. 
         {/* <br className="2xl:block hidden" />creating and deploying them, as well as implementing the
         front-end components to enable seamless user interactions. */}
@@ -70,9 +70,9 @@ export default function MyName(props: { finishedLoading: boolean }) {
         }}
         className="mt-12"
       >
-        <a href={"/resume.pdf"} target={"_blank"} rel="noreferrer">
+        <a href={"https://discord.com/users/1120707697612951643"} target={"_blank"} rel="noreferrer">
           <button className="bg-AAprimary text-AAsecondary border rounded px-4 sm:px-8 py-3 sm:py-4 border-AAsecondary">
-            Check out my resume!
+            Discord
           </button>
         </a>
       </motion.div>
