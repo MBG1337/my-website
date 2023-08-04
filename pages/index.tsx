@@ -72,7 +72,7 @@ export default function Home() {
         <meta property="og:url" content={`https://mbg.my.to`} />
         <link rel="canonical" href={`https://mbg.my.to`} />
         <meta property="og:type" content={meta.type} />
-        <meta property="og:site_name" content="Manu Arora" />
+        <meta property="og:site_name" content="MBG1337" />
         <meta property="og:description" content={meta.description} />
         <meta property="og:title" content={meta.title} />
         <meta property="og:image" content={meta.image} />
