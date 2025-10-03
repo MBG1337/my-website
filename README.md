@@ -12,7 +12,7 @@
   <a href="https://my-website-ten-sage.vercel.app/" target="_blank">
     <img src="https://raw.githubusercontent.com/DataDog/integrations-extras/master/vercel/images/logo-full-black.png" width="100" alt="Vercel Status" />
   </a>
-</p>
+</p>        
 
 ![demo](https://user-images.githubusercontent.com/62770500/199337431-d632cc3c-12fb-40db-8f96-0d5e55555579.png)
 ---
